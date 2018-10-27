@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/linlaHeaderProgress"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+            </ProgressBar>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_height="284dp"
+            android:layout_width="394dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_below="@id/imageView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="307dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_below="@id/textView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="344dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_below="@id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="383dp"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:padding="4dp"
+              android:layout_height="150dp">
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_alignParentTop="false"
+        android:layout_height="90dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/productName"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@id/productImage"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/productPrice"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@id/productName"
+        android:textSize="10sp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</LinearLayout>
